@@ -1,0 +1,128 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url(images/Background.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 72px;
+}
+
+.left-navigation {
+  margin-left: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: baseline;
+  flex-direction: row;
+  height: 28px;
+}
+
+.logo {
+  height: 28px;
+  width: 105px;
+  height: min-content;
+}
+
+.left-navigation-menu {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  height: 28px;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dropdown-arrow {
+  height: 18px;
+  width: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.more {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.right-navigation {
+  display: flex;
+  justify-content: stretch;
+  gap: 10px;
+  margin-right: 90px;
+}
+
+.download-logo {
+  width: 135px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.big-header {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.cta {
+  margin-top: 100px;
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+}
+
+.cta-button {
+  background-color: #8c30f5;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  height: 48px;
+  width: 154px;
+  margin-top: -30px;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 140px;
+  padding-right: 160px;
+}
+
+.iphone-mockup {
+  width: 350px;
+  height: 640px;
+  padding-top: 60px;
+}
+
+.logo-line {
+  width: 1100px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(192, 204, 218, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 1px;
+  border: 0px;
+}
+
+.logo-clouds{
+    margin-top: 100px;
+}
